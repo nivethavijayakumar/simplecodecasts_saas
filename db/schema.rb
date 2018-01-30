@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20180129111141) do
+=======
+ActiveRecord::Schema.define(version: 20180116060217) do
+>>>>>>> user_profiles
 
   create_table "contacts", force: true do |t|
     t.datetime "created_at"
